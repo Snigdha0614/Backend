@@ -1,0 +1,13 @@
+{
+  "name": "talenttrade",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TalentTrade Freelance and Skill Exchange Platform",
+  "scripts": {
+    "start": "npm run start:backend",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}
